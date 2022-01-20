@@ -12,24 +12,25 @@
 
 body{
     padding: 20px;
+    margin: 120px;
     
 }
 .main{
     width: 100%;
     margin:0 auto;
+    
 }
 
 .main,
 .menu,
 .menu-2{
-    height: 470px;  
+    height: 250px;  
+    
 }
 
 .container{
     width: 80%;
     height: 700px;
-    background-color: rgb(99, 199, 245);
-    
 }
 
 .header-1{
@@ -37,6 +38,7 @@ body{
     height: 200px;
 }
 #logo{
+    margin-bottom: 20px;
     height: 100px;
 }
   #menu li{
@@ -46,47 +48,90 @@ body{
   }
 
 .article{
+    position: relative;
     margin-bottom: 25px;
     margin-top: 25px;
     width: 80%;
-    height: 400px;
-    background-color: rgb(141, 143, 38) ;
+    height: 600px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+
+.testo{
+    position: absolute;
+    left: 25px;
+    bottom: 60px;
+    color: rgb(26, 39, 223);
     
 }
 
 .header{
     height: 150px;
-    width: 100%;
-    background-color: yellow;
-    margin-bottom: 15px;
+    width: 100%;  
+    margin-top: 15px;
     float: left;
-   
+}
+
+h4{
+    color: darkgrey;
+    font-size: 15px;
 }
 
 .menu{
     width: calc(25% - 15px);
-    background-color: blue;
     float: left;
-    margin-right: 15px;
+    margin-right: 15px;  
+}
+
+.img-sx{
+    background-image: url(img/img-1.jpg);
+    width: 100%;
+    height: 250px;
+}
+.img-centrale{
+    background-image: url(img/banner-2.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+}
+
+.img-dx{
+    background-image: url(img/img-2.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main{
     width: 50%;
-    background-color: red;
     float: left; 
-    
+}
+
+#studio{
+    width: 100%;
+    height: 250px;
 }
 
 .menu-2{
     width: calc(25% - 15px);
-    background-color: blue;
     margin-left: 15px;
     float: left;
+    
 }
 
 .footer{
-    margin-top: 30px;
+    margin-top: 65px;
     width: 80%;
     height: 100px;
-    background-color: rgb(99, 19, 99);
+    
+}
+
+.autore{
+    text-align: center; 
+}
+.cuore{
+    color:red;
 }
