@@ -54,8 +54,10 @@ body{
     width: 80%;
     height: 600px;
     background-image: url(img/banner.jpg);
-    background-size: cover;
+    background-position: center;
     border-radius: 15px;
+    
+    
     
 }
 
@@ -63,7 +65,7 @@ body{
     position: absolute;
     left: 25px;
     bottom: 60px;
-    color: rgb(26, 39, 223);
+    color: white
     
 }
 
@@ -72,6 +74,10 @@ body{
     width: 100%;  
     margin-top: 15px;
     float: left;
+    
+}
+h1{
+    font-weight:bold;
 }
 
 h4{
@@ -85,12 +91,24 @@ h4{
     margin-right: 15px;  
 }
 
+.layover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0000006b;
+    border-radius: 10px;
+}
+
 .img-sx{
+    position: relative;
     background-image: url(img/img-1.jpg);
     width: 100%;
     height: 250px;
 }
 .img-centrale{
+    position: relative;
     background-image: url(img/banner-2.jpg);
     width: 100%;
     height: 250px;
@@ -98,7 +116,8 @@ h4{
 }
 
 .img-dx{
-    background-image: url(img/img-2.jpg);
+    position: relative;
+    background-image: url(img/img-3.jpg);
     width: 100%;
     height: 250px;
     background-position: center;
@@ -110,10 +129,7 @@ h4{
     float: left; 
 }
 
-#studio{
-    width: 100%;
-    height: 250px;
-}
+
 
 .menu-2{
     width: calc(25% - 15px);
@@ -134,4 +150,7 @@ h4{
 }
 .cuore{
     color:red;
+}
+p{
+    font-family: sans-serif;
 }
